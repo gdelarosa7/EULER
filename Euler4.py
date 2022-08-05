@@ -50,26 +50,3 @@ plt.title('ED - Método de Euler')
 plt.xlabel('Intervalo x')
 plt.ylabel('y')
 plt.grid(axis='both', color='0.95')
-
-xt=x
-yt=y
-
-"""
-def metEuler(n):
-    x0=0
-    y0=2
-    xf=1
-    h=(xf-x0)/n
-    xx=[x0]
-    yy=[y0]
-    for i in range(n):
-        y0= y0 + h*dydx(x0,y0)
-        x0=x0+h
-        xx.append(x0)
-        yy.append(y0)
-    plt.plot(xx,yy)
-    plt.xlim(0,2)
-    plt.ylim(0,2)
-
-interact(metEuler, n=widgets.IntSlider(min=10, max=100, step=1,value=10))
-"""
